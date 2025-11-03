@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <style>
+        .cuadro {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            animation: zoom 3s infinite;
+        }
+
+        @keyframes zoom {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+
+            50% {
+                transform: scale(2);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cuadro"></div>
+</body>
+
+</html>

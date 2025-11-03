@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <style>
+        .cuadro {
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            animation: cambiar 6s infinite;
+        }
+
+        @keyframes cambiar {
+            0% {
+                transform: scale(1);
+                background-color: tomato;
+            }
+
+            50% {
+                transform: scale(1.5);
+                background-color: yellow;
+            }
+
+            100% {
+                transform: scale(1);
+                background-color: tomato;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cuadro"></div>
+</body>
+
+</html>
